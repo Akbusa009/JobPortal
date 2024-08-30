@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://job-portal-akbusa.netlify.app',
+    origin:'https://job-portal-taupe-ten.vercel.app',
     credentials:true
 }
 
